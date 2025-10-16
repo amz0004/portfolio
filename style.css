@@ -1,3 +1,9 @@
+html {
+  color-scheme: light dark;
+  background-color: Canvas;
+  color: CanvasText;
+}
+
 body {
   font: 100%/1.5 system-ui;
   max-width: 100ch;
@@ -10,8 +16,9 @@ body {
 
 nav{
     display: flex;                
-    margin-bottom: 1em;           
-    border-bottom: 1px solid oklch(80% 3% 200);  
+    margin-bottom: 1em;          
+    --border-color: oklch(50% 10% 200 / 40%); 
+    border-bottom-color: var(--border-color);
 }
 
 nav a{
@@ -30,7 +37,7 @@ nav a.current{
 nav a:hover {
   border-bottom: 0.4em solid var(--color-accent); 
   padding-bottom: 0.1em;
-  background-color: oklch(from var(--color-accent) 95% 5% h)
+  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
 }
 
 html {
@@ -107,3 +114,23 @@ li {
     margin-bottom: 0.5em;
 }
 
+label.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+  font-family: inherit;
+  background: var(--sys-bg, Canvas);
+  color: var(--sys-text, CanvasText);
+  padding: 0.4em 0.8em;
+}
+
+label.color-scheme select {
+  font-family: inherit;
+  font-size: 0.9em;
+  background: var(--sys-bg, Canvas);
+  color: var(--sys-text, CanvasText);
+  border: 1px solid var(--border-color, rgba(0, 0, 0, 0.3));
+  border-radius: 0.3em;
+  padding: 0.2em 0.4em;
+}
