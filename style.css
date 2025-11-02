@@ -153,3 +153,76 @@ label.color-scheme select {
     margin: 0; 
     text-align: center;
 }
+
+.project-year {
+  color: #848484;
+  font-style: italic;
+  font-family: Baskerville, "Times New Roman", serif;
+  font-variant-numeric: oldstyle-nums;
+}
+
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+
+  overflow: visible;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; 
+  gap: 2rem;           
+}
+
+svg {
+  flex: 1;       
+  width: 200px;
+  height: auto;
+}
+
+.legend {
+  flex: 1;   
+  display: flex;
+  flex-direction: column; 
+  gap: 0.5rem;            
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center; 
+  gap: 0.5rem;
+}
+
+.swatch {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background-color: var(--color);
+}
+
+&:has(path:hover) {
+  path:not(:hover) {
+    opacity: 0.5;
+  }
+}
+
+path {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.selected {
+  --color: oklch(40.512% 0.12422 294.588) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
+}
+
