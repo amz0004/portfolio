@@ -1,27 +1,30 @@
 [
     {
+        "title": "Boston Bikestalking",
+        "year": "2025",
+        "image": "images/bikestalking.png",
+        "url": "https://amz0004.github.io/bikewatching",
+        "description": "Interactive map visualization of bike traffic in the Boston area during different times of the day."
+    },
+    {
+        "title": "US Fire Map",
+        "year": "2025",
+        "image": "images/firemap.png",
+        "url": "https://amz0004.github.io/DSC106_Project3",
+        "description": "Interactive map visualization of fires within the US from Nov 2024 - Oct 2025."
+    },
+    {
+        "title": "Persuasive or Deceptive? Analyzing NYPD Complaint Data",
+        "year": "2025",
+        "url": "https://vmlau.github.io/DSC106_Project2",
+        "image": "images/nypd.png",
+        "description": "Exploring deceptive visualization practices through the analysis of NYPD complaint data."
+    },
+    {
         "title": "Recipes And Ratings",
         "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Does Fat Equal Flavor? Analyzing the Impact of Saturated Fat Content on Recipe Ratings."
-    },
-    {
-        "title": "Dignissimos eos eaque quas.",
-        "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Nam sint, aliquam voluptates accusantium quia eum eos animi deserunt tenetur, perspiciatis placeat tempora est. Non libero itaque vel rerum architecto. Quas laborum soluta deleniti quos eum, amet placeat molestiae."
-    },
-    {
-        "title": "Eveniet et possimus natus.",
-        "year": "2022",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Asperiores dolor ipsum debitis laboriosam? Similique magni neque corporis, reprehenderit, placeat nemo laudantium vel, voluptatem recusandae sapiente rerum deleniti pariatur error nostrum ab illum magnam quam omnis ratione sunt doloribus?"
-    },
-    {
-        "title": "Quisquam laudantium amet eius.",
-        "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Ipsa aliquid excepturi repellendus voluptate at, labore in qui voluptates consequuntur molestiae amet, veniam dignissimos natus, eius voluptatum et! Saepe totam odit odio necessitatibus natus rerum nesciunt delectus, enim exercitationem?"
     },
     {
         "title": "Expedita aperiam impedit omnis.",
