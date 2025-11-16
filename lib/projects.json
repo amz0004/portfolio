@@ -2,14 +2,14 @@
     {
         "title": "Boston Bikestalking",
         "year": "2025",
-        "image": "images/bikestalking.png",
+        "image": "../images/bikestalking.png",
         "url": "https://amz0004.github.io/bikewatching",
         "description": "Interactive map visualization of bike traffic in the Boston area during different times of the day."
     },
     {
         "title": "US Fire Map",
         "year": "2025",
-        "image": "images/firemap.png",
+        "image": "../images/firemap.png",
         "url": "https://amz0004.github.io/DSC106_Project3",
         "description": "Interactive map visualization of fires within the US from Nov 2024 - Oct 2025."
     },
@@ -17,13 +17,13 @@
         "title": "Persuasive or Deceptive? Analyzing NYPD Complaint Data",
         "year": "2025",
         "url": "https://vmlau.github.io/DSC106_Project2",
-        "image": "images/nypd.png",
+        "image": "../images/nypd.png",
         "description": "Exploring deceptive visualization practices through the analysis of NYPD complaint data."
     },
     {
         "title": "Recipes And Ratings",
         "year": "2025",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "image": "../images/recipes.png",
         "description": "Does Fat Equal Flavor? Analyzing the Impact of Saturated Fat Content on Recipe Ratings."
     },
     {
